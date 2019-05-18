@@ -1,0 +1,32 @@
+luego de haber descargado la carpeta "proyecto2" que esta compartida en dropbox.
+
+iniciar e importar la Base de Datos el servidor xampp, mamp, wampp (el de preferencia...)
+
+instalar los pip necesarios (mysql-connector-python, Pyro4, Tkinter, etc.. )
+
+pip install mysql-connector-python
+pip install playsound
+pip install Pyro4
+
+abrir una terminal o consola e intruducir la siguiente linea ---> "> python -m Pyro4.naming"
+ejecutar el archivo "servidor.py"
+ejecutar el archivo "modelo.py"
+ejecutar el archivo "cliente.py"
+
+en la consola en la que se ejecuta el "cliente.py" escribir "s" o "S" a la pregunta de si "desea ingresar a la sala de chat:"
+al abrir la ventana grafica de Tkinter(). escribir como  usuario: "admin", y como contraseña: "admin"
+
+encriptar la cotraseña agregar a bd usuario con esos parametros. ///////
+usuario: root
+contraseña: toor
+encriptado: 435b41068e8665513a20070c033b08b9c66e4332
+
+
+
+esta pendiente:
+    guardar mensajes en BD del chat grupal
+    chat personal
+    limpiar conversación
+    historial de conversaciones
+    transferencia de archivos
+    subir una foto al usuario
